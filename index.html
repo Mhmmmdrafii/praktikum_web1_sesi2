@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        p:hover {
+            background-color: aqua;
+        }
         *{
             color:blue;
         }
@@ -34,6 +37,18 @@
         #tesk-kuning {
             color: yellow;
         }
+
+        .subbagian {
+            font-size: 30px;
+        }
+
+        .subbagian.header {
+            color: blueviolet;
+        }
+
+        .subbagian#teks {
+            color: brown;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +61,11 @@
         <div>
             <p>Ini adalah paragraf kedua</p>
         </div>
+    </div>
+
+    <div>
+        <div class="subbagian header">Bagian header</div>
+        <p class="subbagian" id="teks">Ini adalah paragraf</p>
     </div>
 </body>
 </html>
